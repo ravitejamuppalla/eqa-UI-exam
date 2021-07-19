@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626639918947' stop='1626639939762'>
+    <name>performing action on alerts practice in letcode application</name>
+    <title>performing action on alerts practice in letcode application</title>
+    <test-cases>
+        <test-case start='1626639918949' status='passed' stop='1626639927911'>
+            <name>login into  the application by calling the reasubale function</name>
+            <title>login into  the application by calling the reasubale function</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626639927912' status='broken' stop='1626639939756'>
+            <name>clicking on lets pratice button and naivaigte to dashboard page</name>
+            <title>clicking on lets pratice button and naivaigte to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Can't call getText on element with selector "[id='onetrust-accept-btn-handler']" because element wasn't found</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Can't call getText on element with selector "[id='onetrust-accept-btn-handler']" because element wasn't found
+                    at C:\Users\mylaptop\Music\AscendumSolutions\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15
+                    at Browser.runCommandWithHooks (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.waitUntil (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (C:\Users\mylaptop\Music\AscendumSolutions\regressionTest\/final.js:28:17)
+                    at Context.executeSync (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626452857014' stop='1626452899873'>
+    <name>performing action on  input practice in letcode application</name>
+    <title>performing action on  input practice in letcode application</title>
+    <test-cases>
+        <test-case start='1626452857014' status='passed' stop='1626452869306'>
+            <name>login into  the application by calling the reasubale function</name>
+            <title>login into  the application by calling the reasubale function</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626452869306' status='passed' stop='1626452869470'>
+            <name>clicking on lets pratice button and naivaigte to dashboard page</name>
+            <title>clicking on lets pratice button and naivaigte to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626452869470' status='failed' stop='1626452869616'>
+            <name>clicking on input button </name>
+            <title>clicking on input button </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'Practice and become pro in test automation' to include 'Welcome Automation Engineer'</message>
+                <stack-trace>AssertionError: expected 'Practice and become pro in test automation' to include 'Welcome Automation Engineer'
+                    at Context.&lt;anonymous> (D:\webdriverIOFramework\regressionTest\/input.js:35:57)
+                    at Context.executeSync (D:\webdriverIOFramework\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\webdriverIOFramework\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1626452869617' status='broken' stop='1626452899860'>
+            <name>Entering some thing in the Text feilds</name>
+            <title>Entering some thing in the Text feilds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getAttribute on element with selector "#getMe" because element wasn't found</message>
+                <stack-trace>Error: Can't call getAttribute on element with selector "#getMe" because element wasn't found
+                    at Object.implicitWait [as default] (D:\webdriverIOFramework\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (D:\webdriverIOFramework\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.runCommandWithHooks (D:\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (D:\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (D:\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.getAttribute (D:\webdriverIOFramework\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (D:\webdriverIOFramework\regressionTest\/input.js:45:54)
+                    at Context.executeSync (D:\webdriverIOFramework\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\webdriverIOFramework\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

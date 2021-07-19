@@ -1,3 +1,4 @@
-/reports/*
+/allure-report/*
+/allure-results/*
 /node_modules/*
 /src/*

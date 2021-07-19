@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626664170929' stop='1626664178257'>
+    <name>performing action on alerts practice in letcode application</name>
+    <title>performing action on alerts practice in letcode application</title>
+    <test-cases>
+        <test-case start='1626664170930' status='passed' stop='1626664177063'>
+            <name>login into  the application by calling the reasubale function</name>
+            <title>login into  the application by calling the reasubale function</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626664177064' status='failed' stop='1626664178253'>
+            <name>clicking on lets pratice button and naivaigte to dashboard page</name>
+            <title>clicking on lets pratice button and naivaigte to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Malformed type for "args" parameter of command executeScript
+                Expected: (string|object|number|boolean|undefined)[]
+                Actual: (object)[]
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-execute-script
+                </message>
+                <stack-trace>Error: Malformed type for "args" parameter of command executeScript
+                Expected: (string|object|number|boolean|undefined)[]
+                Actual: (object)[]
+                For more info see https://w3c.github.io/webdriver/#dfn-execute-script
+                    at Browser.protocolCommand (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\webdriver\build\command.js:53:23)
+                    at Browser.runCommandWithHooks (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:105:34)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Browser.runCommandWithHooks (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.executeScript (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (C:\Users\mylaptop\Music\AscendumSolutions\regressionTest\/final.js:131:17)
+                    at Context.executeSync (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

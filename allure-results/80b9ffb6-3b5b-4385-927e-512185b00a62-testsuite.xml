@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626620622499' stop='1626620635061'>
+    <name>performing action on alerts practice in letcode application</name>
+    <title>performing action on alerts practice in letcode application</title>
+    <test-cases>
+        <test-case start='1626620622500' status='passed' stop='1626620631504'>
+            <name>login into  the application by calling the reasubale function</name>
+            <title>login into  the application by calling the reasubale function</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626620631505' status='failed' stop='1626620635060'>
+            <name>clicking on lets pratice button and naivaigte to dashboard page</name>
+            <title>clicking on lets pratice button and naivaigte to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected '' to include 'Mar'</message>
+                <stack-trace>AssertionError: expected '' to include 'Mar'
+                    at Context.&lt;anonymous> (C:\Users\mylaptop\Music\AscendumSolutions\regressionTest\/final.js:56:63)
+                    at Context.executeSync (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

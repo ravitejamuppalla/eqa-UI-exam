@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1626624479070' stop='1626624497160'>
+    <name>performing action on alerts practice in letcode application</name>
+    <title>performing action on alerts practice in letcode application</title>
+    <test-cases>
+        <test-case start='1626624479071' status='passed' stop='1626624482631'>
+            <name>login into  the application by calling the reasubale function</name>
+            <title>login into  the application by calling the reasubale function</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1626624482634' status='broken' stop='1626624497159'>
+            <name>clicking on lets pratice button and naivaigte to dashboard page</name>
+            <title>clicking on lets pratice button and naivaigte to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call scrollIntoView on element with selector "//div[@class='ag-column-select-list']//span[text()='Name']" because element wasn't found</message>
+                <stack-trace>Error: Can't call scrollIntoView on element with selector "//div[@class='ag-column-select-list']//span[text()='Name']" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.runCommandWithHooks (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.scrollIntoView (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at BrowserActions.scrolltoView (C:\Users\mylaptop\Music\AscendumSolutions\commonFunctions\/actions.js:129:25)
+                    at BrowserActions.getElementText (C:\Users\mylaptop\Music\AscendumSolutions\commonFunctions\/actions.js:93:14)
+                    at Context.&lt;anonymous> (C:\Users\mylaptop\Music\AscendumSolutions\regressionTest\/final.js:75:35)
+                    at Context.executeSync (C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\mylaptop\Music\AscendumSolutions\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
